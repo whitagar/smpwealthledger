@@ -47,7 +47,7 @@ export function AboutSection() {
               <img
                 src="/Copy_of_SamanthaParkinson.png"
                 alt="SMP Wealth Ledger Logo"
-                className="w-32 h-32 object-contain mix-blend-multiply" />
+                className="w-64 h-64 object-contain mix-blend-multiply" />
               
             </div>
           </motion.div>

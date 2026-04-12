@@ -71,9 +71,13 @@ export function CTASection() {
             delay: 0.2
           }}>
           
-          <button className="bg-brown-900 text-white px-10 py-4 text-lg font-medium hover:bg-brown-900/90 transition-colors shadow-lg hover:shadow-xl">
+          <a
+            href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__lWZKxRURUI3SUlNWVJYMEdRQVBKQTNYOE5DVTE5Ni4u"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-brown-900 text-white px-10 py-4 text-lg font-medium hover:bg-brown-900/90 transition-colors shadow-lg hover:shadow-xl">
             Schedule a Free Consultation
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>);

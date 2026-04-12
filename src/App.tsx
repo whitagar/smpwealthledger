@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
@@ -7,7 +8,10 @@ import { ApproachSection } from './components/ApproachSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { CTASection } from './components/CTASection';
 import { Footer } from './components/Footer';
-export function App() {
+import { PrivacyPolicy } from './components/PrivacyPolicy';
+import { TermsOfService } from './components/TermsOfService';
+
+function Home() {
   return (
     <div className="min-h-screen bg-offwhite text-dark font-sans selection:bg-beige-300 selection:text-brown-900">
       <Navbar />
@@ -20,6 +24,18 @@ export function App() {
         <CTASection />
       </main>
       <Footer />
-    </div>);
+    </div>
+  );
+}
 
+export function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }

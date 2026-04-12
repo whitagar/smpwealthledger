@@ -44,12 +44,14 @@ export function Navbar() {
 
         <div className="flex items-center gap-6">
           <a
-            href="#contact"
+            href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__lWZKxRURUI3SUlNWVJYMEdRQVBKQTNYOE5DVTE5Ni4u"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:block text-sm font-medium text-white hover:text-beige-300 transition-colors">
-            
+
             Get Started
           </a>
-          <div className="h-10 w-10 md:h-12 md:w-12 bg-white rounded-full flex items-center justify-center overflow-hidden border-2 border-beige-300">
+          <div className="h-24 w-24 md:h-32 md:w-32 bg-white rounded-full flex items-center justify-center overflow-hidden border-2 border-beige-300">
             <img
               src="/Copy_of_SamanthaParkinson.png"
               alt="SMP Wealth Ledger Logo"
@@ -97,10 +99,12 @@ export function Navbar() {
             Contact
           </a>
           <a
-          href="#contact"
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__lWZKxRURUI3SUlNWVJYMEdRQVBKQTNYOE5DVTE5Ni4u"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-beige-300 font-medium mt-2"
           onClick={() => setMobileMenuOpen(false)}>
-          
+
             Get Started
           </a>
         </div>

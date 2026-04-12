@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen bg-brown-900 flex items-center overflow-hidden pt-20">
+    <section className="relative min-h-screen bg-brown-900 flex items-start md:items-center overflow-hidden pt-40 md:pt-20">
       {/* Decorative Circles */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-full opacity-60 pointer-events-none">
         <motion.div
@@ -103,7 +103,9 @@ export function HeroSection() {
             }}>
             
             <a
-              href="#contact"
+              href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__lWZKxRURUI3SUlNWVJYMEdRQVBKQTNYOE5DVTE5Ni4u"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 border border-beige-300 text-beige-300 hover:bg-beige-300 hover:text-brown-900 transition-all duration-300 font-medium rounded-sm">
               
               Schedule a Consultation
@@ -123,7 +125,7 @@ export function HeroSection() {
           delay: 1,
           duration: 1
         }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
+        className="hidden md:block absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
         
         <ChevronDown size={32} />
       </motion.div>
