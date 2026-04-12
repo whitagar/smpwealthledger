@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Mail } from 'lucide-react';
+import { Instagram, Mail } from 'lucide-react';
 export function Footer() {
   return (
     <footer className="bg-brown-900 text-white pt-20 pb-10 border-t border-white/10">
@@ -20,21 +20,15 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/smp.wealthledger"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white/50 hover:text-beige-300 transition-colors">
-                
-                <Linkedin size={20} />
+                <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href="mailto:sam.wealthledger@outlook.com"
                 className="text-white/50 hover:text-beige-300 transition-colors">
-                
-                <Twitter size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-white/50 hover:text-beige-300 transition-colors">
-                
                 <Mail size={20} />
               </a>
             </div>
@@ -81,7 +75,7 @@ export function Footer() {
             <h4 className="font-serif text-lg mb-6 text-beige-300">Contact</h4>
             <ul className="space-y-3 text-white/70 font-light">
               <li><a href="mailto:sam.wealthledger@outlook.com" className="hover:text-white transition-colors">sam.wealthledger@outlook.com</a></li>
-              {/* <li><a href="tel:5551234567" className="hover:text-white transition-colors">(555) 123-4567</a></li> */}
+              <li><a href="tel:4352337701" className="hover:text-white transition-colors">(435) 233-7701</a></li>
             </ul>
           </div>
         </div>
