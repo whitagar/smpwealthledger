@@ -1,0 +1,24 @@
+src/components/Footer.tsx
+  37b92ab1f48e83c8 3,23-25,27,30,78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "c1d02b4b5b0de83ed2321ea72148d69c4c3a4283",
+  "prompts": {
+    "37b92ab1f48e83c8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c3eb0251-d89f-49ed-b9a0-738628f7c337",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Garrison Whitaker",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 13,
+      "accepted_lines": 7,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/9dd8c77e2ec30f0e07cdf8a5d97cd459d09651ddba9472e716dfb4a06ecb64b1"
+    }
+  }
+}
