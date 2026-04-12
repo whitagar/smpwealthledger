@@ -1,0 +1,40 @@
+src/components/TermsOfService.tsx
+  37b92ab1f48e83c8 1-63
+src/components/HeroSection.tsx
+  37b92ab1f48e83c8 6,106-108,128
+src/App.tsx
+  37b92ab1f48e83c8 2,11-14,27-29,31-41
+src/components/CTASection.tsx
+  37b92ab1f48e83c8 74-78,80
+src/components/Footer.tsx
+  37b92ab1f48e83c8 2,10,83-84,92,94-95,97
+src/components/AboutSection.tsx
+  37b92ab1f48e83c8 50
+src/index.css
+  37b92ab1f48e83c8 17-23
+src/components/PrivacyPolicy.tsx
+  37b92ab1f48e83c8 1-56
+src/components/Navbar.tsx
+  37b92ab1f48e83c8 47-49,51,54,102-104,107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.21",
+  "base_commit_sha": "100fae4373a9ca06fe7fe63162a10b82e07f0166",
+  "prompts": {
+    "37b92ab1f48e83c8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c3eb0251-d89f-49ed-b9a0-738628f7c337",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Garrison Whitaker <garrisonkwhitaker@gmail.com>",
+      "messages": [],
+      "total_additions": 181,
+      "total_deletions": 39,
+      "accepted_lines": 174,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/bfa3ebfca8d5674d2391f3f90ee5cd39f951032bdf157a08679c7a9ba1e551d4"
+    }
+  }
+}
