@@ -1,0 +1,26 @@
+src/App.tsx
+  37b92ab1f48e83c8 2,13,32-39,43-49
+src/components/ComingSoon.tsx
+  37b92ab1f48e83c8 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "41e1347c38782eafbc5787dc91c125fe71cf3473",
+  "prompts": {
+    "37b92ab1f48e83c8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c3eb0251-d89f-49ed-b9a0-738628f7c337",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Garrison Whitaker",
+      "messages": [],
+      "total_additions": 66,
+      "total_deletions": 6,
+      "accepted_lines": 66,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/0a44778220d5e809cc26f662e6625994ef0211727b37b3e9a7ed5236960cbe47"
+    }
+  }
+}
