@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useSearchParams } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
@@ -10,6 +10,7 @@ import { CTASection } from './components/CTASection';
 import { Footer } from './components/Footer';
 import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { TermsOfService } from './components/TermsOfService';
+import { ComingSoon } from './components/ComingSoon';
 
 function Home() {
   return (
@@ -28,14 +29,24 @@ function Home() {
   );
 }
 
+function PreviewGate({ children }: { children: React.ReactNode }) {
+  const [searchParams] = useSearchParams();
+  if (searchParams.get('preview') !== 'true') {
+    return <ComingSoon />;
+  }
+  return <>{children}</>;
+}
+
 export function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/terms-of-service" element={<TermsOfService />} />
-      </Routes>
+      <PreviewGate>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+        </Routes>
+      </PreviewGate>
     </BrowserRouter>
   );
 }
