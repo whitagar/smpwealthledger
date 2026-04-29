@@ -68,7 +68,7 @@ export function PricingSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center bg-brown-900 text-white px-8 py-4 font-medium hover:bg-brown-900/90 transition-colors rounded-sm">
-              Schedule a Consultation
+              Fill out a consultation request
             </a>
           </div>
         </motion.div>

@@ -108,7 +108,7 @@ export function HeroSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 border border-beige-300 text-beige-300 hover:bg-beige-300 hover:text-brown-900 transition-all duration-300 font-medium rounded-sm">
               
-              Schedule a Consultation
+              Fill out a consultation request
             </a>
           </motion.div>
         </div>

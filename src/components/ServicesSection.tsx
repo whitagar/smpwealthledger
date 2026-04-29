@@ -1,30 +1,30 @@
 import React, { Children } from 'react';
 import { motion } from 'framer-motion';
-import { LineChart, PiggyBank, FileText, ShieldCheck } from 'lucide-react';
+import { Map, Wallet, TrendingDown, Umbrella } from 'lucide-react';
 const services = [
 {
-  icon: <LineChart size={32} className="text-beige-400" />,
-  title: 'Financial Planning',
+  icon: <Map size={32} className="text-beige-400" />,
+  title: 'Money Mapping',
   description:
-  'Comprehensive roadmaps tailored to your life goals, from buying a home to funding education.'
+  'A clear picture of where your money goes and a system to keep your finances organized month after month.'
 },
 {
-  icon: <PiggyBank size={32} className="text-beige-400" />,
-  title: 'Retirement Strategy',
+  icon: <Wallet size={32} className="text-beige-400" />,
+  title: 'Spending Plans',
   description:
-  'Clear, actionable plans to ensure you can transition into retirement with confidence and security.'
+  'A spending plan that fits your life, paired with the work of recognizing the triggers that throw it off course.'
 },
 {
-  icon: <FileText size={32} className="text-beige-400" />,
-  title: 'Tax Optimization',
+  icon: <TrendingDown size={32} className="text-beige-400" />,
+  title: 'Debt Repayment',
   description:
-  'Strategic approaches to minimize your tax burden and maximize your wealth retention over time.'
+  'Step-by-step strategies to pay down debt in a way that is sustainable and built around your situation.'
 },
 {
-  icon: <ShieldCheck size={32} className="text-beige-400" />,
-  title: 'Investment Review',
+  icon: <Umbrella size={32} className="text-beige-400" />,
+  title: 'Expense Planning',
   description:
-  'Unbiased analysis of your current portfolio to ensure it aligns with your risk tolerance and objectives.'
+  'Preparation for the big purchases on the horizon and the financial surprises that show up uninvited.'
 }];
 
 const containerVariants = {
@@ -91,8 +91,9 @@ export function ServicesSection() {
             }}
             className="text-lg text-dark/70 font-light">
             
-            I provide specialized guidance across all areas of your financial
-            life, ensuring every piece works together seamlessly.
+            Practical, judgment-free money coaching — built around clear
+            plans, healthy habits, and an accountability partner you can count
+            on.
           </motion.p>
         </div>
 

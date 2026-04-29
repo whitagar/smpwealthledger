@@ -76,7 +76,7 @@ export function CTASection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-brown-900 text-white px-10 py-4 text-lg font-medium hover:bg-brown-900/90 transition-colors shadow-lg hover:shadow-xl">
-            Schedule a Free Consultation
+            Fill out a free consultation request
           </a>
         </motion.div>
       </div>
