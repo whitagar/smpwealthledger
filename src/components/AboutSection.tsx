@@ -27,20 +27,21 @@ export function AboutSection() {
             </h2>
             <div className="space-y-6 text-dark/80 text-lg font-light leading-relaxed">
               <p>
-                I started SMP Wealth Ledger with a simple belief: everyone
-                deserves access to high-quality, unbiased financial guidance.
+                I'm a mother with a love for finance—born from seeing
+                firsthand the freeing effect of taking control of my own
+                personal budget.
               </p>
               <p>
-                As a solo practitioner, I don't pass you off to junior
-                associates. When you work with SMP Wealth Ledger, you work
-                directly with me. I take the time to deeply understand your
-                goals, fears, and aspirations, crafting a financial roadmap that
-                is uniquely yours.
+                My passion for finance grew through five years working at a
+                local credit union, followed by two years of mortgage
+                experience. That background gave me a clear-eyed view of how
+                everyday families navigate debt, saving, and homeownership.
               </p>
               <p>
-                My fee-only structure means my only compensation comes directly
-                from you. No commissions, no hidden incentives—just transparent
-                advice focused entirely on your best interests.
+                I specialize in working with clients who feel like they're
+                living paycheck to paycheck, struggling with debt, and want to
+                break out of the constant loop—to start thriving instead of
+                just surviving.
               </p>
             </div>
             <div className="mt-10">

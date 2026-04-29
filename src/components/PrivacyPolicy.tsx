@@ -32,6 +32,17 @@ export function PrivacyPolicy() {
           </section>
 
           <section>
+            <h2 className="text-xl font-serif text-brown-900 mb-3">Mobile Information</h2>
+            <p>
+              No mobile information will be shared with third parties/affiliates
+              for marketing/promotional purposes. Phone numbers and any
+              messaging consent collected through our intake form are used only
+              to communicate with you about your inquiry and scheduled
+              consultations.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-xl font-serif text-brown-900 mb-3">Data Security</h2>
             <p>
               We take reasonable steps to protect your personal information from unauthorized access

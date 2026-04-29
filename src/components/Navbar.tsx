@@ -24,13 +24,19 @@ export function Navbar() {
             <a
               href="#services"
               className="hover:text-beige-300 transition-colors">
-              
+
               Services
+            </a>
+            <a
+              href="#pricing"
+              className="hover:text-beige-300 transition-colors">
+
+              Pricing
             </a>
             <a
               href="#approach"
               className="hover:text-beige-300 transition-colors">
-              
+
               Approach
             </a>
             <a
@@ -81,14 +87,21 @@ export function Navbar() {
           href="#services"
           className="text-white hover:text-beige-300"
           onClick={() => setMobileMenuOpen(false)}>
-          
+
             Services
+          </a>
+          <a
+          href="#pricing"
+          className="text-white hover:text-beige-300"
+          onClick={() => setMobileMenuOpen(false)}>
+
+            Pricing
           </a>
           <a
           href="#approach"
           className="text-white hover:text-beige-300"
           onClick={() => setMobileMenuOpen(false)}>
-          
+
             Approach
           </a>
           <a

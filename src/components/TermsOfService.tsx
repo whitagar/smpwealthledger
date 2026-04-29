@@ -40,6 +40,16 @@ export function TermsOfService() {
           </section>
 
           <section>
+            <h2 className="text-xl font-serif text-brown-900 mb-3">SMS &amp; Text Messaging</h2>
+            <p>
+              If you provide your phone number through our intake form and
+              consent to text messages, message and data rates may apply.
+              Message frequency may vary. Reply HELP for more information.
+              Reply STOP to opt out.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-xl font-serif text-brown-900 mb-3">Limitation of Liability</h2>
             <p>
               SMP Wealth Ledger is not liable for any damages arising from your use of this website
