@@ -73,8 +73,8 @@ export function AboutSection() {
             
             <div className="absolute inset-0 bg-beige-300/20 mix-blend-multiply z-10"></div>
             <img
-              src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-              alt="Financial Planning"
+              src="/samantha-parkinson.jpg"
+              alt="Samantha Parkinson"
               className="w-full h-full object-cover grayscale opacity-90" />
             
           </motion.div>
